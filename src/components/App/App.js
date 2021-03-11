@@ -5,7 +5,7 @@ import { Route, Switch } from "react-router-dom";
 
 import Main from "../Main/Main";
 import Photo from "../Photo/Photo";
-
+import NotFound from "../NotFound/NotFound";
 
 function App() {
   const [searchQuery, setSearchQuery] = useState("Moscow");
@@ -67,7 +67,9 @@ function App() {
             getPhoto={getPhotoById}
           />
         </Route>
-
+        <Route path="*">
+          <NotFound />
+        </Route>
       </Switch>
     </div>
   );

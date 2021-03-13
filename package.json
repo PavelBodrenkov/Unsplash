@@ -2,7 +2,7 @@
   "name": "webinar_live",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -14,6 +14,8 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
+  
+  "homepage": "https://pavelbodrenkov.github.io/Unsplash/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

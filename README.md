@@ -13,6 +13,6 @@
 https://pavelbodrenkov.github.io/Unsplash/
 
 ## Фото проекта
-![Uploading image.png…]()
+
 
 
